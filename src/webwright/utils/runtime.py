@@ -11,4 +11,4 @@ def run_async(coro) -> T:
         asyncio.get_running_loop()
     except RuntimeError:
         return asyncio.run(coro)
-    raise RuntimeError("mini-swe-webagent does not support running inside an active event loop.")
+    raise RuntimeError("Webwright does not support running inside an active event loop.")
