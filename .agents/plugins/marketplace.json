@@ -1,0 +1,14 @@
+{
+  "plugins": [
+    {
+      "name": "webwright",
+      "source": {
+        "source": "local",
+        "path": "./plugins/webwright"
+      },
+      "installation": "AVAILABLE",
+      "authentication": "ON_INSTALL",
+      "category": "Productivity"
+    }
+  ]
+}
